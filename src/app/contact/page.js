@@ -25,7 +25,7 @@ export default function Contact() {
           <li>
             Email:{" "}
             <a
-              href="mailto:example@example.com"
+              href="mailto:kolomieckirill38@gmail.com"
               className="text-blue-600 hover:underline"
             >
               example@example.com
@@ -34,18 +34,18 @@ export default function Contact() {
           <li>
             Телеграм:{" "}
             <a
-              href="https://t.me/yourtelegram"
+              href="https://t.me/NarrativeLive"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              @yourtelegram
+              @NarrativeLive
             </a>
           </li>
           <li>
             LinkedIn:{" "}
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/kirill-kolomiyets-ab2a9a2b5/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
