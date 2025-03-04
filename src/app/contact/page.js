@@ -28,7 +28,7 @@ export default function Contact() {
               href="mailto:kolomieckirill38@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              example@example.com
+              kolomieckirill38@gmail.com
             </a>
           </li>
           <li>
@@ -50,7 +50,18 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              yourprofile
+              linkedin.com/in/kirill-kolomiyets-ab2a9a2b5
+            </a>
+          </li>
+          <li>
+            LinkedIn:{" "}
+            <a
+                href="https://www.linkedin.com/in/kirill-kolomiyets-ab2a9a2b5/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+            >
+              linkedin.com/in/kirill-kolomiyets-ab2a9a2b5
             </a>
           </li>
         </ul>

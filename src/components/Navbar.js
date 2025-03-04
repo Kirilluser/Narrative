@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="bg-white shadow">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold">
-          Narrative
+          NarrativeLive
         </Link>
         {/* Десктопное меню */}
         <div className="hidden md:flex space-x-6">
