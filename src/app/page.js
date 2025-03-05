@@ -45,7 +45,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative w-full h-64 md:w-1/2 rounded-lg overflow-hidden shadow-sm transform hover:scale-105 transition-transform duration-200">
               <Image
-                  src="/images/profile.jpg"
+                  src="/images/me.png"
                   alt="Мой портрет"
                   fill
                   style={{ objectFit: 'cover' }}
