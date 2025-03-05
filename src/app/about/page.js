@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div className="space-y-16 max-w-5xl mx-auto px-4 py-8">
+    <div className="about-block mx-auto max-w-4xl px-4 py-16 bg-stone-100 rounded-lg shadow">
       {/* Заголовок */}
       <header className="text-center">
         <h1 className="text-4xl font-bold">Обо мне</h1>

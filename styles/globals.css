@@ -1,32 +1,35 @@
 /* styles/globals.css */
 
-/* Стили для секции Hero */
-.hero {
-    position: relative;
-    overflow: hidden; /* Чтобы clip-path не выходил за пределы */
-}
-
-/* Применяем clip-path к фоновому изображению, чтобы обрезать два угла */
-.hero-image {
-    clip-path: polygon(
-            20px 0,        /* Сдвигаем верхний левый угол вправо */
-            100% 0,        /* Верхний правый угол */
-            100% calc(100% - 20px),  /* Сдвигаем нижний правый угол вверх */
-            calc(100% - 20px) 100%,   /* Нижний правый угол, сдвинутый влево */
-            0 100%,        /* Нижний левый угол */
-            0 20px         /* Сдвигаем верхний левый угол вниз */
-    );
-}
-
-/* Стили для блока "Обо мне" */
-.about-block {
-    background-color: #f5f5f5; /* Мягкий серый фон */
-    border-radius: 8px; /* Скругленные углы */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
 /* Базовые стили для body */
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Стили для секции Hero */
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image {
+    /* С помощью clip-path срезаем два угла: верхний левый и нижний правый */
+    clip-path: polygon(
+            20px 0,
+            100% 0,
+            100% calc(100% - 20px),
+            calc(100% - 20px) 100%,
+            0 100%,
+            0 20px
+    );
+}
+
+/* Общий контейнер для блоков */
+.block-container {
+    background-color: #f5f5f5;  /* Мягкий серый фон */
+    border-radius: 8px;         /* Скругленные углы */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Легкая тень */
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
 }

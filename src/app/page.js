@@ -38,7 +38,7 @@ export default function Home() {
         </section>
 
         {/* Блок "Обо мне" */}
-        <section className="about-block mx-auto max-w-4xl px-4 py-16 bg-gray-100 rounded-lg shadow">
+        <section className="about-block mx-auto max-w-4xl px-4 py-16 bg-stone-100 rounded-lg shadow">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-10">
             Обо мне
           </h2>
@@ -58,7 +58,7 @@ export default function Home() {
         </section>
 
         {/* Блок статей */}
-        <section className="mx-auto max-w-7xl px-4 py-16">
+        <section className="about-block mx-auto max-w-4xl px-4 py-16 bg-stone-100 rounded-lg shadow">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-12">
             Последние статьи
           </h2>
@@ -142,7 +142,7 @@ export default function Home() {
         </section>
 
         {/* Блок книг */}
-        <section className="mx-auto max-w-7xl px-4 py-16">
+        <section className="about-block mx-auto max-w-4xl px-4 py-16 bg-stone-100 rounded-lg shadow">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-12">
             Рекомендации книг
           </h2>
@@ -225,7 +225,7 @@ export default function Home() {
         </section>
 
         {/* Блок проектов */}
-        <section className="mx-auto max-w-7xl px-4 py-16">
+        <section className="about-block mx-auto max-w-4xl px-4 py-16 bg-stone-100 rounded-lg shadow">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-12">
             Мои проекты
           </h2>
