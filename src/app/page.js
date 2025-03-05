@@ -38,14 +38,14 @@ export default function Home() {
         </section>
 
         {/* Блок "Обо мне" */}
-        <section className="mx-auto max-w-4xl px-4 py-16">
+        <section className="about-block mx-auto max-w-4xl px-4 py-16 bg-gray-100 rounded-lg shadow">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-10">
             Обо мне
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative w-full h-64 md:w-1/2 rounded-lg overflow-hidden shadow-sm transform hover:scale-105 transition-transform duration-200">
               <Image
-                  src="/images/me.png"
+                  src="/images/profile.jpg"
                   alt="Мой портрет"
                   fill
                   style={{ objectFit: 'cover' }}
